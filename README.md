@@ -73,7 +73,7 @@ $hash = password_hash($password, PASSWORD_DEFAULT, $options);
   
 В основе функции `custom_function_for_salt()`  использовать генератор случайных 8-ми значных цифр. Создать в виде отдельного файла с расширением `salt_func.php`.
   
-### 1.5 Организовать хеширование `hash_file`
+### 1.5 Организовать хеширование средствами PHP 8 `hash_file`
   
   ### Пример
   
