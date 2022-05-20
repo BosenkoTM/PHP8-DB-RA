@@ -36,7 +36,6 @@
 
                 //Возвращаем пользователя на страницу регистрации
                 header("HTTP/1.1 301 Moved Permanently");
-                $address_site ="http://95.131.149.21:10000/1course_db_autoriz/soz-form-regist-avtoriz-php";
                 header("Location: ".$address_site."/form_register.php");
 
                 //Останавливаем скрипт
