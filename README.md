@@ -38,7 +38,7 @@
         $mysqli->set_charset('utf8');
 
         //Для удобства, добавим здесь переменную, которая будет содержать название нашего сайта
-        $address_site = "http://testsite.local";
+        $address_site = "http://95.131.149.21:YOUR_PORT/YOUR_CATALOG";
     ?>
   ```
 
