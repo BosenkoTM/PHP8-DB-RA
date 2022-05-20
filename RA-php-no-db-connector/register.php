@@ -1,5 +1,5 @@
 <?php
-$address_site ="http://95.131.149.21:10000/1course_db_autoriz/soz-form-regist-avtoriz-php/";
+
     //Запускаем сессию
     session_start();
 
