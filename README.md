@@ -56,7 +56,7 @@
  ```php
       <?php
           $hash = md5($password . $salt);
-      ```
+ ```
 
 ### 1.4 Реализовать модель
     
@@ -69,9 +69,9 @@ $options = [
     'cost' => 12 // the default cost is 10
 ];
 $hash = password_hash($password, PASSWORD_DEFAULT, $options);
-  ```  
+ ```  
   
-  В основе функции `custom_function_for_salt()`  использовать генератор случайных 8-ми значных цифр. Создать в виде отдельного файла с расширением `salt_func.php`.
+В основе функции `custom_function_for_salt()`  использовать генератор случайных 8-ми значных цифр. Создать в виде отдельного файла с расширением `salt_func.php`.
   
 ### 1.5 Организовать хеширование `hash_file`
   
