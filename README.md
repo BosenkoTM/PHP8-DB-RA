@@ -66,7 +66,7 @@
  <?php
 $options = [
     'salt' => custom_function_for_salt(), //создать функцию для генерации `соли`.
-    'cost' => 12 // the default cost is 10
+    'cost' => 12
 ];
 $hash = password_hash($password, PASSWORD_DEFAULT, $options);
  ```  
