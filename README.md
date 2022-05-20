@@ -1,17 +1,11 @@
-# sozdanie-formy-registratsii-i-avtorizatsii-v-php
+# Создание формы регистрации и авторизации в PHP 8.1
 Форма регистрации и авторизации
-
-<h2>Описание веток</h2>
-
-<p>
-  <strong>sozdanie-formy-registratsii-i-avtorizatsii-v-php</strong> - В этой ветке находятся исходники функционала, который был реализован в статье <a href="https://sozdatisite.ru/php/sozdanie-formy-registratsii-i-avtorizatsii-v-php.html">Создание формы регистрации и авторизации</a>
-</p>
 
 <h2>Импорт базы данных</h2>
 
 <p>
-  1. Заходим в phpmyadmin и создаем базу данных. Название базы данных придумайте сами. 
-  2. Выбираем созданную базу данних и переходим на вкладке "Import" и импортируем файл "sozdatisite_id6-article.sql", который находится в репозиторий. 
+  1. Создать базу данных в `MySql`. 
+  2. Выбираем созданную базу данных и выполняем скрипт `DB.sql` []()  
 </p>
 
 
